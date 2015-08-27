@@ -108,6 +108,7 @@ msnbc.com##.comments
 ##div#watch-discussion
 ! blogspot.com
 ##iframe[src*=google\.com\/_\/widget\/render\/comments]
+||apis.google.com/u/0/_/widget/render/comments
 ! Blogger-based blogs, a couple hacks
 ##div.post-outer > div#comments, div.post-outer > div.comments
 ##div#comments > dl#comments-block
