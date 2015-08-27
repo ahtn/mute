@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2015-08-27 @ 16:45:10 BST
-! Checksum: GzUvEd8r7CFqN8fubYq9pw
+! Last Modified: 2015-08-27 @ 17:31:21 BST
+! Checksum: KpqGQx9KE09mYd4JQPB8Fg
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -61,7 +61,10 @@ msnbc.com##.comments
 ##div#comments > dl#comments-block
 ##div.comments > div[id^=comment]:not(.forumComment)
 ~archlinux.org##div#comments> div.comment
+~symantec.com##div#comments> div.comment
 ##div#comments div.comment-wrapper
+~software.intel.com##div#comments div.comment-wrapper
+~symantec.com##div#comments div.comment-wrapper
 ##div.comments-body
 ##div.serendipity_comments
 ##.userComment
