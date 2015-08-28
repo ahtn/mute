@@ -130,6 +130,8 @@ msnbc.com##.comments
 ###userComments
 ! anandtech.com
 ##.blog_comments
+! gsmarena
+###user-comments
 ! lwn.net
 ##.CommentBox
 ! osnews.com
