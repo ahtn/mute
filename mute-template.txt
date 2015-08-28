@@ -155,6 +155,8 @@ imgur.com##div#under-image
 ##div#tpc_thread
 ! phonearena.com
 ##div#Discussions_Container
+! theregister.co.uk - remove button as comments are served up from forums.theregister.co.uk
+###article_body_btm > .comments > .count.reg_btn
 
 !
 ! NEWS
