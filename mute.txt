@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2015-08-28 @ 14:39:51 BST
-! Checksum: P3IZ2FZs5I3q8QAdS36eig
+! Last Modified: 2015-08-30 @ 19:26:43 BST
+! Checksum: lGR9eguopVn2E8NFo7tTwQ
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -30,6 +30,7 @@
 ~viafoura.com##.viafoura
 abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com,mtv.com###comments
 propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
+slashdot.org###comments
 cracked.com###Comments
 msnbc.com##.comments
 ##[class~=commentlist]
