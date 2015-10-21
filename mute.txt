@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Mute
-! Last Modified: 2015-05-04 @ 16:26:01 CDT
-! Checksum: x8+nnTuju0OotR17QasI5w
+! Last Modified: 2015-10-21 @ 07:00:41 UTC
+! Checksum: hMxpvj4lH5bNKl3XSTKBHg
 ! Expires: 5 days
 !
 ! Author: Brad Conte (B-Con) @ http://bradconte.com
@@ -30,6 +30,7 @@
 ~viafoura.com##.viafoura
 abc.net.au,arstechnica.com,businessinsider.com,blogspot.com,denverpost.com,forbes.com,mtv.com###comments
 propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,wordpress.com###comments
+slashdot.org###comments
 cracked.com###Comments
 msnbc.com##.comments
 ##[class~=commentlist]
@@ -60,16 +61,21 @@ msnbc.com##.comments
 ##ul#comments
 ##div#watch-discussion
 ##iframe[src*=google\.com\/_\/widget\/render\/comments]
+||apis.google.com/u/0/_/widget/render/comments
 ##div.post-outer > div#comments, div.post-outer > div.comments
 ##div#comments > dl#comments-block
 ##div.comments > div[id^=comment]:not(.forumComment)
 ~archlinux.org##div#comments> div.comment
+~symantec.com##div#comments> div.comment
 ##div#comments div.comment-wrapper
+~software.intel.com##div#comments div.comment-wrapper
+~symantec.com##div#comments div.comment-wrapper
 ##div.comments-body
 ##div.serendipity_comments
 ##.userComment
 ###userComments
 ##.blog_comments
+###user-comments
 ##.CommentBox
 ##div#commentblock
 schneier.com##div.commentbody
@@ -84,6 +90,7 @@ imgur.com##div#comments-container
 ##h3.comments-header
 ##div#tpc_thread
 ##div#Discussions_Container
+###article_body_btm > .comments > .count.reg_btn
 ##div#commentsContainer
 ##div#commentsWell
 ##div#CommentsContainer
