@@ -74,6 +74,7 @@ propublica.org,nwaonline.com,si.com,techcrunch.com,theadvocate.com,theverge.com,
 slashdot.org###comments
 cracked.com###Comments
 msnbc.com##.comments
+youtube.com###comments
 
 ! Very universally popular, includes Wordpress
 ##[class~=commentlist]
